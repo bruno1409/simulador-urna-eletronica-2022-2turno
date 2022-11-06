@@ -18,7 +18,7 @@ Neste simulador, estão disponíveis as seguintes funções:
 
 ## Executar o simulador online
 
-Acesse [esse link](https://bruno1409.github.io/simulador-urna-eletronica-2022-2turno/) para acessar o simulador da urna.
+Acesse [esse link](https://bruno1409.github.io/simulador-urna-eletronica-2022-2turno/) para abrir o simulador da urna.
 
 ## Baixar o simulador
 
