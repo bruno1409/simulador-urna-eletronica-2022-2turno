@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador - Urna Eletrônica</title>
+    <link rel="stylesheet" href="urna.css">
+</head>
+<body>
+    <h1>Simulador - Urna Eletrônica</h1>
+    <p class="meio">Para ver os logs do simulador, pressione F12 e clique em Console</p>
+    <div class="urna">
+        <div class="tela"></div>
+        <div class="teclado">
+            <div class="tecla valida numero" onclick="tecla(1)">1</div>
+            <div class="tecla valida numero" onclick="tecla(2)">2</div>
+            <div class="tecla valida numero" onclick="tecla(3)">3</div>
+            <div class="tecla valida numero" onclick="tecla(4)">4</div>
+            <div class="tecla valida numero" onclick="tecla(5)">5</div>
+            <div class="tecla valida numero" onclick="tecla(6)">6</div>
+            <div class="tecla valida numero" onclick="tecla(7)">7</div>
+            <div class="tecla valida numero" onclick="tecla(8)">8</div>
+            <div class="tecla valida numero" onclick="tecla(9)">9</div>
+            <div class="tecla"></div>
+            <div class="tecla valida numero" onclick="tecla(0)">0</div>
+            <div class="tecla"></div>
+            <div class="tecla valida branco" onclick="teclaBranco()"><br>BRANCO</div>
+            <div class="tecla valida corrige" onclick="teclaCorrige()"><br>CORRIGE</div>
+            <div class="tecla valida confirma" onclick="teclaConfirma()"><br>CONFIRMA</div>
+        </div>
+    </div>
+    <div class="controle">
+        <a href="#" id="bt-prox" onclick="proximoEleitor()">Autorizar próximo eleitor</a>
+        <a href="#" id="bt-enc" onclick="encerrarVotacao()">Encerrar votação</a>
+        <a href="#" id="bt-votos" onclick="inserirVotos()">Inserir votos em massa</a>
+    </div>
+    <script src="urna.js"></script>
+</body>
+</html>
